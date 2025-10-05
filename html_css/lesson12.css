@@ -1,0 +1,27 @@
+body{
+    background-color: black;
+}
+
+h1{ /*This will apply the css properties to all h1 tags*/
+    color: white;
+}
+/*We use # if we are applying properties for the tag id's*/
+#p1{
+    color: red;
+}
+#p2{
+    color: orange;
+}
+#p3{
+    color: yellow;
+}
+#p4{
+    color:green
+}
+/*We start with '.' if we are applying property to a class*/
+.odd{
+    color: red;
+}
+.even{
+    color:blue
+}

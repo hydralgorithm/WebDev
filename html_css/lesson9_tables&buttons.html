@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Table</title>
+        <link rel="icon" type="images/png" href="/html_css/Favicon/JP logo.png">
+    </head>
+    <body>
+        <h3>Store Hours</h3>
+
+        <table border="1" style="background-color:black;">
+            <tr align="center" style="background-color: lightblue;">
+                <th width="100">Sunday</th>
+                <th width="100">Monday</th>
+                <th width="100">Tuesday</th>
+                <th width="100">Wednesday</th>
+                <th width="100">Thursday</th>
+                <th width="100">Friday</th>
+                <th width="100">Saturday</th>
+            </tr>
+            <tr align="center" style="background-color: aliceblue;">
+                <td>Closed</td>
+                <td>9-5</td>
+                <td>9-5</td>
+                <td>9-5</td>
+                <td>9-5</td>
+                <td>9-5</td>
+                <td>10-2</td>
+            </tr>
+        </table>
+        <br><br>
+        <!--BUTTONS-->
+        <a href="https://www.google.com" target="_blank">
+        <button style="font-size:25px; background-color: grey; color: lightblue; border-radius:25px;">click me</button>
+        </a>
+        <br><br>
+        <a href="/html_css/exercise.html" target="_blank">
+        <button style="background-color: bisque;font-size:25px; color: cadetblue; border-radius:25px;">press me</button>
+        </a>
+        <br><br>
+        <buttom onclick="doSomething()" style="font-size:25px ;background-color: cornflowerblue; color: cornsilk; border-radius: 10px;">Press mee</buttom>
+        <p id="greeting">Hello!</p>
+        <script>
+            function doSomething(){
+                document.getElementById("greeting").innerHTML = "Good Bye";
+            }
+        </script>
+    </body>
+</html>
